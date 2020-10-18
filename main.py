@@ -8,7 +8,7 @@ MAX_RADIUS_METERS = 800
 
 gmaps = googlemaps.Client(key='YOUR_API_KEY')
 
-# ADD YOUR LAT / LNG HERE
+# ADD YOUR LAT /LNG HERE
 location = (lat, lng)
 
 nearby_places = gmaps.places_nearby(
